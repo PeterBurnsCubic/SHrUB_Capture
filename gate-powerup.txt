@@ -20,16 +20,24 @@ ACK =>                        60
 Total                         229
 
 
-Repeat "=> Initialise" (Type/SEQ D0) at 143.0774)
-Repeat "=> Initialise" (Type/SEQ D0) at 143.3794)
-Repeat "=> Initialise" (Type/SEQ D0) at 145.9951)
-Repeat "<= Static status reply" (Type/SEQ 1D) at 176.2684)
-Repeat "<= Static status reply" (Type/SEQ 18) at 178.4304)
-Repeat "<= Static status reply" (Type/SEQ 1C) at 179.5195)
-Repeat "<= Static status reply" (Type/SEQ 14) at 181.6777)
-Repeat "<= Static status reply" (Type/SEQ 18) at 182.7786)
-Repeat "<= Static status reply" (Type/SEQ 1F) at 184.931)
-Repeat "<= Static status reply" (Type/SEQ 13) at 185.9971)
+Repeat "=> Initialise" (Type/SEQ D0) at 04/25/23 08:49:49 +77423000 ns)
+Repeat "=> Initialise" (Type/SEQ D0) at 04/25/23 08:49:49 +379390000 ns)
+Repeat "=> Initialise" (Type/SEQ D0) at 04/25/23 08:49:51 +995049000 ns)
+Repeat "<= Static status reply" (Type/SEQ 1D) at 04/25/23 08:50:22 +268352000 ns)
+Repeat "<= Static status reply" (Type/SEQ 18) at 04/25/23 08:50:24 +430366000 ns)
+Repeat "<= Static status reply" (Type/SEQ 1C) at 04/25/23 08:50:25 +519553000 ns)
+Repeat "<= Static status reply" (Type/SEQ 14) at 04/25/23 08:50:27 +677713000 ns)
+Repeat "<= Static status reply" (Type/SEQ 18) at 04/25/23 08:50:28 +778567000 ns)
+Repeat "<= Static status reply" (Type/SEQ 1F) at 04/25/23 08:50:30 +930998000 ns)
+Repeat "<= Static status reply" (Type/SEQ 13) at 04/25/23 08:50:31 +997061000 ns)
+
+
+2 ACK <= at ['04/25/23 08:50:22 +421116000 ns', '04/25/23 08:50:22 +446324000 ns']
+2 ACK <= at ['04/25/23 08:50:24 +469194000 ns', '04/25/23 08:50:24 +494707000 ns']
+2 ACK <= at ['04/25/23 08:50:25 +556975000 ns', '04/25/23 08:50:25 +582078000 ns']
+2 ACK <= at ['04/25/23 08:50:27 +829000000 ns', '04/25/23 08:50:27 +854208000 ns']
+2 ACK <= at ['04/25/23 08:50:28 +932822000 ns', '04/25/23 08:50:28 +958030000 ns']
+2 ACK <= at ['04/25/23 08:50:32 +148465000 ns', '04/25/23 08:50:32 +173568000 ns']
 
 
 No NAKs found
@@ -40,37 +48,49 @@ gate-powerup-02.csv
 Packet Type                   Number Logged
                               1
 => Initialise                 4
-ACK <=                        69
+ACK <=                        72
 <= Initialise reply           1
-ACK =>                        79
+ACK =>                        84
 <= EBLU Query Reply           6
-<= Event 1 Status reply       32
+<= Event 1 Status reply       34
 => Update breakthrough force  1
 <= Breakthrough force reply   1
 => EBLU Query                 5
-=> Static status query        30
-<= Static status reply        42
-=> Event 1 Status query       29
+=> Static status query        32
+<= Static status reply        44
+=> Event 1 Status query       30
 => change mode                2
 => Set credit score maximum   1
-Total                         303
+Total                         318
 
 
-Repeat "=> Initialise" (Type/SEQ D0) at 151.8627)
-Repeat "=> Initialise" (Type/SEQ D0) at 152.165)
-Repeat "=> Initialise" (Type/SEQ D0) at 154.7809)
-Repeat "<= Static status reply" (Type/SEQ 19) at 182.999)
-Repeat "<= Static status reply" (Type/SEQ 1C) at 185.0279)
-Repeat "<= Static status reply" (Type/SEQ 10) at 185.6066)
-Repeat "<= Static status reply" (Type/SEQ 1B) at 188.2948)
-Repeat "<= Static status reply" (Type/SEQ 11) at 189.9258)
-Repeat "<= Static status reply" (Type/SEQ 1B) at 192.6135)
-Repeat "<= Static status reply" (Type/SEQ 1D) at 193.1721)
-Repeat "<= Static status reply" (Type/SEQ 17) at 195.9406)
-Repeat "<= Static status reply" (Type/SEQ 19) at 196.5031)
-Repeat "<= Static status reply" (Type/SEQ 1B) at 197.0295)
-Repeat "<= Static status reply" (Type/SEQ 11) at 198.6514)
-Repeat "<= Static status reply" (Type/SEQ 15) at 199.7333)
+Repeat "=> Initialise" (Type/SEQ D0) at 04/25/23 08:53:36 +862654000 ns)
+Repeat "=> Initialise" (Type/SEQ D0) at 04/25/23 08:53:37 +165038000 ns)
+Repeat "=> Initialise" (Type/SEQ D0) at 04/25/23 08:53:39 +780912000 ns)
+Repeat "<= Static status reply" (Type/SEQ 19) at 04/25/23 08:54:07 +999041000 ns)
+Repeat "<= Static status reply" (Type/SEQ 1C) at 04/25/23 08:54:10 +27939000 ns)
+Repeat "<= Static status reply" (Type/SEQ 10) at 04/25/23 08:54:10 +606647000 ns)
+Repeat "<= Static status reply" (Type/SEQ 1B) at 04/25/23 08:54:13 +294765000 ns)
+Repeat "<= Static status reply" (Type/SEQ 11) at 04/25/23 08:54:14 +925786000 ns)
+Repeat "<= Static status reply" (Type/SEQ 1B) at 04/25/23 08:54:17 +613488000 ns)
+Repeat "<= Static status reply" (Type/SEQ 1D) at 04/25/23 08:54:18 +172092000 ns)
+Repeat "<= Static status reply" (Type/SEQ 17) at 04/25/23 08:54:20 +940619000 ns)
+Repeat "<= Static status reply" (Type/SEQ 19) at 04/25/23 08:54:21 +503077000 ns)
+Repeat "<= Static status reply" (Type/SEQ 1B) at 04/25/23 08:54:22 +29494000 ns)
+Repeat "<= Static status reply" (Type/SEQ 11) at 04/25/23 08:54:23 +651446000 ns)
+Repeat "<= Static status reply" (Type/SEQ 15) at 04/25/23 08:54:24 +733341000 ns)
+
+
+2 ACK <= at ['04/25/23 08:54:08 +149058000 ns', '04/25/23 08:54:08 +174162000 ns']
+2 ACK <= at ['04/25/23 08:54:10 +180983000 ns', '04/25/23 08:54:10 +206087000 ns']
+2 ACK <= at ['04/25/23 08:54:13 +332779000 ns', '04/25/23 08:54:13 +357987000 ns']
+2 ACK <= at ['04/25/23 08:54:15 +76591000 ns', '04/25/23 08:54:15 +101694000 ns']
+2 ACK <= at ['04/25/23 08:54:17 +764755000 ns', '04/25/23 08:54:17 +790067000 ns']
+2 ACK <= at ['04/25/23 08:54:18 +324635000 ns', '04/25/23 08:54:18 +349843000 ns']
+2 ACK <= at ['04/25/23 08:54:21 +92693000 ns', '04/25/23 08:54:21 +118005000 ns']
+2 ACK <= at ['04/25/23 08:54:21 +540283000 ns', '04/25/23 08:54:21 +565595000 ns']
+2 ACK <= at ['04/25/23 08:54:22 +180266000 ns', '04/25/23 08:54:22 +205474000 ns']
+2 ACK <= at ['04/25/23 08:54:24 +884367000 ns', '04/25/23 08:54:24 +909679000 ns']
 
 
 No NAKs found
@@ -97,23 +117,36 @@ ACK =>                        117
 Total                         452
 
 
-Repeat "=> Initialise" (Type/SEQ D0) at 142.0294)
-Repeat "=> Initialise" (Type/SEQ D0) at 142.3321)
-Repeat "=> Initialise" (Type/SEQ D0) at 144.9269)
-Repeat "<= Event 1 Status reply" (Type/SEQ 2B) at 178.677)
-Repeat "<= Static status reply" (Type/SEQ 14) at 181.65)
-Repeat "<= Static status reply" (Type/SEQ 16) at 182.1924)
-Repeat "<= Static status reply" (Type/SEQ 12) at 185.5017)
-Repeat "<= Static status reply" (Type/SEQ 14) at 186.0495)
-Repeat "<= Static status reply" (Type/SEQ 1C) at 188.2112)
-Repeat "<= Static status reply" (Type/SEQ 10) at 189.2847)
-Repeat "<= Static status reply" (Type/SEQ 1A) at 192.0052)
-Repeat "<= Static status reply" (Type/SEQ 1A) at 196.3401)
-Repeat "<= Static status reply" (Type/SEQ 14) at 199.1153)
-Repeat "<= Static status reply" (Type/SEQ 16) at 199.6632)
-Repeat "<= Static status reply" (Type/SEQ 10) at 202.3942)
-Repeat "<= Static status reply" (Type/SEQ 14) at 203.4725)
-Repeat "<= Static status reply" (Type/SEQ 16) at 204.035)
+Repeat "=> Initialise" (Type/SEQ D0) at 04/25/23 08:57:20 +29391000 ns)
+Repeat "=> Initialise" (Type/SEQ D0) at 04/25/23 08:57:20 +332095000 ns)
+Repeat "=> Initialise" (Type/SEQ D0) at 04/25/23 08:57:22 +926920000 ns)
+Repeat "<= Event 1 Status reply" (Type/SEQ 2B) at 04/25/23 08:57:56 +677052000 ns)
+Repeat "<= Static status reply" (Type/SEQ 14) at 04/25/23 08:57:59 +650042000 ns)
+Repeat "<= Static status reply" (Type/SEQ 16) at 04/25/23 08:58:00 +192396000 ns)
+Repeat "<= Static status reply" (Type/SEQ 12) at 04/25/23 08:58:03 +501715000 ns)
+Repeat "<= Static status reply" (Type/SEQ 14) at 04/25/23 08:58:04 +49486000 ns)
+Repeat "<= Static status reply" (Type/SEQ 1C) at 04/25/23 08:58:06 +211188000 ns)
+Repeat "<= Static status reply" (Type/SEQ 10) at 04/25/23 08:58:07 +284646000 ns)
+Repeat "<= Static status reply" (Type/SEQ 1A) at 04/25/23 08:58:10 +5160000 ns)
+Repeat "<= Static status reply" (Type/SEQ 1A) at 04/25/23 08:58:14 +340126000 ns)
+Repeat "<= Static status reply" (Type/SEQ 14) at 04/25/23 08:58:17 +115326000 ns)
+Repeat "<= Static status reply" (Type/SEQ 16) at 04/25/23 08:58:17 +663201000 ns)
+Repeat "<= Static status reply" (Type/SEQ 10) at 04/25/23 08:58:20 +394229000 ns)
+Repeat "<= Static status reply" (Type/SEQ 14) at 04/25/23 08:58:21 +472479000 ns)
+Repeat "<= Static status reply" (Type/SEQ 16) at 04/25/23 08:58:22 +35041000 ns)
+
+
+2 ACK <= at ['04/25/23 08:57:56 +802232000 ns', '04/25/23 08:57:56 +827440000 ns']
+2 ACK <= at ['04/25/23 08:57:59 +802781000 ns', '04/25/23 08:57:59 +827988000 ns']
+2 ACK <= at ['04/25/23 08:58:00 +346834000 ns', '04/25/23 08:58:00 +372250000 ns']
+2 ACK <= at ['04/25/23 08:58:04 +202361000 ns', '04/25/23 08:58:04 +227569000 ns']
+2 ACK <= at ['04/25/23 08:58:06 +362305000 ns', '04/25/23 08:58:06 +387513000 ns']
+2 ACK <= at ['04/25/23 08:58:07 +322178000 ns', '04/25/23 08:58:07 +349990000 ns']
+2 ACK <= at ['04/25/23 08:58:10 +42737000 ns', '04/25/23 08:58:10 +67841000 ns']
+2 ACK <= at ['04/25/23 08:58:14 +377944000 ns', '04/25/23 08:58:14 +403152000 ns']
+2 ACK <= at ['04/25/23 08:58:17 +817756000 ns', '04/25/23 08:58:17 +843172000 ns']
+2 ACK <= at ['04/25/23 08:58:21 +625888000 ns', '04/25/23 08:58:21 +651096000 ns']
+2 ACK <= at ['04/25/23 08:58:22 +89838000 ns', '04/25/23 08:58:22 +115254000 ns']
 
 
 No NAKs found
@@ -140,23 +173,39 @@ ACK <=                        99
 Total                         435
 
 
-Repeat "<= Static status reply" (Type/SEQ 14) at 0.422639)
-Repeat "<= Static status reply" (Type/SEQ 16) at 0.985195)
-Repeat "=> Initialise" (Type/SEQ D0) at 154.2559)
-Repeat "=> Initialise" (Type/SEQ D0) at 154.5835)
-Repeat "=> Initialise" (Type/SEQ D0) at 157.1784)
-Repeat "<= Static status reply" (Type/SEQ 1E) at 192.8351)
-Repeat "<= Static status reply" (Type/SEQ 1B) at 195.5554)
-Repeat "<= Static status reply" (Type/SEQ 1D) at 196.098)
-Repeat "<= Static status reply" (Type/SEQ 19) at 199.3969)
-Repeat "<= Static status reply" (Type/SEQ 1B) at 199.9555)
-Repeat "<= Static status reply" (Type/SEQ 12) at 202.1072)
-Repeat "<= Static status reply" (Type/SEQ 16) at 203.1894)
-Repeat "<= Static status reply" (Type/SEQ 10) at 205.8937)
-Repeat "<= Static status reply" (Type/SEQ 14) at 206.9945)
-Repeat "<= Static status reply" (Type/SEQ 1D) at 209.6989)
-Repeat "<= Static status reply" (Type/SEQ 1F) at 210.2612)
-Repeat "<= Static status reply" (Type/SEQ 1D) at 214.1144)
+Repeat "<= Static status reply" (Type/SEQ 14) at 04/25/23 08:59:37 +422639000 ns)
+Repeat "<= Static status reply" (Type/SEQ 16) at 04/25/23 08:59:37 +985195000 ns)
+Repeat "=> Initialise" (Type/SEQ D0) at 04/25/23 09:02:11 +255875000 ns)
+Repeat "=> Initialise" (Type/SEQ D0) at 04/25/23 09:02:11 +583474000 ns)
+Repeat "=> Initialise" (Type/SEQ D0) at 04/25/23 09:02:14 +178410000 ns)
+Repeat "<= Static status reply" (Type/SEQ 1E) at 04/25/23 09:02:49 +835111000 ns)
+Repeat "<= Static status reply" (Type/SEQ 1B) at 04/25/23 09:02:52 +555417000 ns)
+Repeat "<= Static status reply" (Type/SEQ 1D) at 04/25/23 09:02:53 +97979000 ns)
+Repeat "<= Static status reply" (Type/SEQ 19) at 04/25/23 09:02:56 +396882000 ns)
+Repeat "<= Static status reply" (Type/SEQ 1B) at 04/25/23 09:02:56 +955486000 ns)
+Repeat "<= Static status reply" (Type/SEQ 12) at 04/25/23 09:02:59 +107187000 ns)
+Repeat "<= Static status reply" (Type/SEQ 16) at 04/25/23 09:03:00 +189396000 ns)
+Repeat "<= Static status reply" (Type/SEQ 10) at 04/25/23 09:03:02 +893660000 ns)
+Repeat "<= Static status reply" (Type/SEQ 14) at 04/25/23 09:03:03 +994507000 ns)
+Repeat "<= Static status reply" (Type/SEQ 1D) at 04/25/23 09:03:06 +698875000 ns)
+Repeat "<= Static status reply" (Type/SEQ 1F) at 04/25/23 09:03:07 +261229000 ns)
+Repeat "<= Static status reply" (Type/SEQ 1D) at 04/25/23 09:03:11 +114360000 ns)
+
+
+2 ACK <= at ['04/25/23 08:59:37 +33277000 ns', '04/25/23 08:59:37 +58589000 ns']
+2 ACK <= at ['04/25/23 08:59:37 +577226000 ns', '04/25/23 08:59:37 +602539000 ns']
+2 ACK <= at ['04/25/23 08:59:38 +137106000 ns', '04/25/23 08:59:38 +162418000 ns']
+2 ACK <= at ['04/25/23 09:02:49 +988462000 ns', '04/25/23 09:02:50 +13878000 ns']
+2 ACK <= at ['04/25/23 09:02:52 +707979000 ns', '04/25/23 09:02:52 +733187000 ns']
+2 ACK <= at ['04/25/23 09:02:53 +251922000 ns', '04/25/23 09:02:53 +277234000 ns']
+2 ACK <= at ['04/25/23 09:02:56 +547784000 ns', '04/25/23 09:02:56 +572888000 ns']
+2 ACK <= at ['04/25/23 09:02:57 +107560000 ns', '04/25/23 09:02:57 +132976000 ns']
+2 ACK <= at ['04/25/23 09:03:00 +227481000 ns', '04/25/23 09:03:00 +252793000 ns']
+2 ACK <= at ['04/25/23 09:03:02 +931374000 ns', '04/25/23 09:03:02 +956582000 ns']
+2 ACK <= at ['04/25/23 09:03:04 +147180000 ns', '04/25/23 09:03:04 +172388000 ns']
+2 ACK <= at ['04/25/23 09:03:06 +851067000 ns', '04/25/23 09:03:06 +876379000 ns']
+2 ACK <= at ['04/25/23 09:03:07 +299080000 ns', '04/25/23 09:03:07 +324496000 ns']
+2 ACK <= at ['04/25/23 09:03:11 +267001000 ns', '04/25/23 09:03:11 +292417000 ns']
 
 
 No NAKs found

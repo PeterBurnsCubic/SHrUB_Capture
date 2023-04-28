@@ -52,32 +52,40 @@ def reportPacketRetransmissions(df):
             typeseq = row['Type/SEQ']
             if '<=' in cmd:
                 if typeseq == lastTypeSeqIn:
-                    print('Repeat "{}" (Type/SEQ {}) at Number {}, {})'.format(cmd, typeseq, index, row['Date/Time']))
+                    print('Repeat "{}" (Type/SEQ {}) at {})'.format(cmd, typeseq, row['Date/Time']))
                 lastTypeSeqIn = typeseq
             elif '=>' in cmd:
                 if typeseq == lastTypeSeqOut:
-                    print('Repeat "{}" (Type/SEQ {}) at Number {}, {})'.format(cmd, typeseq, index, row['Date/Time']))
+                    print('Repeat "{}" (Type/SEQ {}) at {})'.format(cmd, typeseq, row['Date/Time']))
                 lastTypeSeqOut = typeseq
     print('')
 
+def reportAckList(ackList):
+    if len(ackList) > 1:
+        print('{} ACK <= at {}'.format(len(ackList), ackList))
+
 def reportRepeatedACKs(df):
     print('')
-    ackList = []
-    ackType = ''
+    ackInList = []
+    ackOutList = []
     for index, row in df.iterrows():
         cmd = row['Type']
-        if 'ACK' not in cmd:
-            if len(ackList) > 1:
-                print('{} {} at {}'.format(len(ackList), ackType, ackList))
-            ackList = []
-            ackType = ''
-        elif cmd == ackType:
-            ackList.append(index)
+        if '<=' in cmd:
+            if 'ACK' not in cmd:
+                reportAckList(ackInList)
+                ackInList = []
+                ackOutList = []
+            else:
+                ackInList.append(row['Date/Time'])
         else:
-            ackList = [index]
-            ackType = cmd
-    if len(ackList) > 1:
-        print('{} {} at {}'.format(len(ackList), ackType, ackList))
+            if 'ACK' not in cmd:
+                reportAckList(ackOutList)
+                ackOutList = []
+                ackInList = []
+            else:
+                ackOutList.append(row['Date/Time'])
+    reportAckList(ackInList)
+    reportAckList(ackOutList)
     print('')
 
 def reportPacketFailures(df):
