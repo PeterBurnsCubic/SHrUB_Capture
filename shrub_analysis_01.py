@@ -2,18 +2,24 @@
 
 import sys
 import pandas
+from collections import defaultdict
 
 def analyseFile(fname):
     print(fname)
     print('------------------------')
 
     # parse CSV file
-    types = {'Time': float, 'Type': str, 'SOM': str, 'Type/SEQ': str, 'length': str, 'data': str, 'LRC': str}
-    df = pandas.read_csv(fname, index_col='Time', dtype=types, keep_default_na=False)
+    types = defaultdict(lambda : str)
+    types['Number'] = int
+    types['Time(s)'] = float
+    types['Length(s)'] = float
+    types['Distance(s)'] = float
+    df = pandas.read_csv(fname, index_col='Number', dtype=types, keep_default_na=False)
 
     # reports
     reportNumberOfPacketsByType(df)
     reportPacketRetransmissions(df)
+    reportRepeatedACKs(df)
     reportPacketFailures(df)
 
 def reportNumberOfPacketsByType(df):
@@ -46,12 +52,32 @@ def reportPacketRetransmissions(df):
             typeseq = row['Type/SEQ']
             if '<=' in cmd:
                 if typeseq == lastTypeSeqIn:
-                    print('Repeat "{}" (Type/SEQ {}) at {})'.format(cmd, typeseq, index))
+                    print('Repeat "{}" (Type/SEQ {}) at Number {}, {})'.format(cmd, typeseq, index, row['Date/Time']))
                 lastTypeSeqIn = typeseq
             elif '=>' in cmd:
                 if typeseq == lastTypeSeqOut:
-                    print('Repeat "{}" (Type/SEQ {}) at {})'.format(cmd, typeseq, index))
+                    print('Repeat "{}" (Type/SEQ {}) at Number {}, {})'.format(cmd, typeseq, index, row['Date/Time']))
                 lastTypeSeqOut = typeseq
+    print('')
+
+def reportRepeatedACKs(df):
+    print('')
+    ackList = []
+    ackType = ''
+    for index, row in df.iterrows():
+        cmd = row['Type']
+        if 'ACK' not in cmd:
+            if len(ackList) > 1:
+                print('{} {} at {}'.format(len(ackList), ackType, ackList))
+            ackList = []
+            ackType = ''
+        elif cmd == ackType:
+            ackList.append(index)
+        else:
+            ackList = [index]
+            ackType = cmd
+    if len(ackList) > 1:
+        print('{} {} at {}'.format(len(ackList), ackType, ackList))
     print('')
 
 def reportPacketFailures(df):
@@ -59,7 +85,7 @@ def reportPacketFailures(df):
     foundNak = False
     for index, row in df.iterrows():
         if 'NAK' in row['Type']:
-            print('{} at {}'.format(row['Type'], index))
+            print('{} at {}, '.format(row['Type'], index, row['Date/Time']))
             foundNak = True
     if not foundNak:
         print('No NAKs found')
