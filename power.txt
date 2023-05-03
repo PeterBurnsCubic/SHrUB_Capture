@@ -18,6 +18,13 @@ ACK =>                        91
 => change mode                1
 Total                         390
 
+Packet Type                   Number Logged
+Requests =>                   71
+ACKs <=                       78
+Replies <=                    105
+ACKs =>                       91
+Other                         45
+
 
 Repeat "=> Initialise" (Type/SEQ D0) at 05/02/23 13:34:41 +595846000 ns)
 Repeat "=> Initialise" (Type/SEQ D0) at 05/02/23 13:34:41 +899695000 ns)
@@ -87,6 +94,13 @@ ACK =>                        88
 => Set credit score maximum   1
 Total                         361
 
+Packet Type                   Number Logged
+Requests =>                   69
+ACKs <=                       72
+Replies <=                    98
+ACKs =>                       88
+Other                         34
+
 
 Repeat "=> Initialise" (Type/SEQ D0) at 05/02/23 13:40:01 +300450000 ns)
 Repeat "=> Initialise" (Type/SEQ D0) at 05/02/23 13:40:01 +603772000 ns)
@@ -154,6 +168,13 @@ ACK =>                        222
 => Event 1 Status query       74
 => change mode                1
 Total                         910
+
+Packet Type                   Number Logged
+Requests =>                   171
+ACKs <=                       182
+Replies <=                    252
+ACKs =>                       222
+Other                         83
 
 
 Repeat "=> Initialise" (Type/SEQ D0) at 05/02/23 13:42:31 +863814000 ns)
@@ -293,6 +314,13 @@ ACK =>                        89
 => change mode                1
 => Set credit score maximum   1
 Total                         366
+
+Packet Type                   Number Logged
+Requests =>                   74
+ACKs <=                       74
+Replies <=                    99
+ACKs =>                       89
+Other                         30
 
 
 Repeat "=> Initialise" (Type/SEQ D0) at 05/02/23 13:51:40 +930821000 ns)

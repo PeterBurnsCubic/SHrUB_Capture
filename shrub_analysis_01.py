@@ -18,6 +18,7 @@ def analyseFile(fname):
 
     # reports
     reportNumberOfPacketsByType(df)
+    # reportStaticStatusQueries(df)
     reportPacketRetransmissions(df)
     reportRepeatedACKs(df)
     reportPacketFailures(df)
@@ -25,11 +26,27 @@ def analyseFile(fname):
 def reportNumberOfPacketsByType(df):
     # count the packets
     typeDict = {}
+    numAckIn = 0
+    numRpyIn = 0
+    numAckOut = 0
+    numCmdOut = 0
+    numOther = 0
     for index, row in df.iterrows():
-        if row['Type'] in typeDict:
-            typeDict[row['Type']] += 1
+        name = row['Type']
+        if name in typeDict:
+            typeDict[name] += 1
         else:
-            typeDict[row['Type']] = 1
+            typeDict[name] = 1
+        if name == 'ACK =>':
+            numAckOut += 1
+        elif name == 'ACK <=':
+            numAckIn += 1
+        elif name[0:2] == '=>':
+            numCmdOut += 1
+        elif name[0:2] == '<=':
+            numRpyIn += 1
+        else:
+            numOther += 1
 
     # print the report
     total = 0
@@ -40,6 +57,15 @@ def reportNumberOfPacketsByType(df):
         print(fmt.format(item[0], item[1]))
         total += item[1]
     print(fmt.format('Total', total))
+    total = 0
+    print('')
+    print(fmt.format('Packet Type', 'Number Logged'))
+    print(fmt.format('Requests =>', numCmdOut))
+    print(fmt.format('ACKs <=', numAckIn))
+    print(fmt.format('Replies <=', numRpyIn))
+    print(fmt.format('ACKs =>', numAckOut))
+    if numOther > 0:
+        print(fmt.format('Other', numOther))
     print('')
 
 def reportPacketRetransmissions(df):
@@ -97,6 +123,22 @@ def reportPacketFailures(df):
             foundNak = True
     if not foundNak:
         print('No NAKs found')
+    print('')
+
+def reportStaticStatusQueries(df):
+    print('')
+    numQueries = 0
+    startTime = 0.0
+    endTime = 0.0
+    for index, row in df.iterrows():
+        cmd = row['Type']
+        time = row['Time(s)']
+        if cmd == '=> Static status query':
+            if numQueries == 0:
+                startTime = time
+            numQueries += 1
+            endTime = time
+    print('Number of Static Status Queries = {} in {}s'.format(numQueries, endTime-startTime))
     print('')
 
 if len(sys.argv) < 2:
