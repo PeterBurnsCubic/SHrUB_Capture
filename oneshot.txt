@@ -1,0 +1,268 @@
+oneshot_01_AB.csv
+------------------------
+
+Packet Type                   Number Logged
+<= Static status reply        43
+<= Event 1 Status reply       48
+ACK <=                        65
+<= Event 2 Status reply       2
+ACK =>                        86
+=> Static status query        30
+=> Event 1 Status query       34
+=> One shot release mode      1
+Total                         309
+
+Packet Type                   Number Logged
+Requests =>                   65
+ACKs <=                       65
+Replies <=                    93
+ACKs =>                       86
+
+
+Repeat "<= Static status reply" (Type/SEQ 10) at 05/02/23 14:13:29 +463775000 ns)
+Repeat "<= Static status reply" (Type/SEQ 12) at 05/02/23 14:13:29 +865617000 ns)
+Repeat "<= Static status reply" (Type/SEQ 15) at 05/02/23 14:13:30 +456616000 ns)
+Repeat "<= Event 1 Status reply" (Type/SEQ 28) at 05/02/23 14:13:31 +3130000 ns)
+Repeat "<= Static status reply" (Type/SEQ 1B) at 05/02/23 14:13:31 +637976000 ns)
+Repeat "<= Static status reply" (Type/SEQ 1E) at 05/02/23 14:13:32 +240850000 ns)
+Repeat "<= Static status reply" (Type/SEQ 10) at 05/02/23 14:13:32 +630609000 ns)
+Repeat "<= Static status reply" (Type/SEQ 12) at 05/02/23 14:13:33 +32659000 ns)
+Repeat "<= Static status reply" (Type/SEQ 14) at 05/02/23 14:13:33 +438564000 ns)
+Repeat "<= Event 1 Status reply" (Type/SEQ 2A) at 05/02/23 14:13:36 +176786000 ns)
+Repeat "<= Event 1 Status reply" (Type/SEQ 29) at 05/02/23 14:13:38 +701997000 ns)
+Repeat "<= Event 1 Status reply" (Type/SEQ 2D) at 05/02/23 14:13:39 +360905000 ns)
+Repeat "<= Event 1 Status reply" (Type/SEQ 20) at 05/02/23 14:13:39 +858468000 ns)
+Repeat "<= Event 1 Status reply" (Type/SEQ 23) at 05/02/23 14:13:40 +493002000 ns)
+Repeat "<= Event 1 Status reply" (Type/SEQ 26) at 05/02/23 14:13:41 +127848000 ns)
+Repeat "<= Event 1 Status reply" (Type/SEQ 29) at 05/02/23 14:13:41 +758736000 ns)
+Repeat "<= Static status reply" (Type/SEQ 1C) at 05/02/23 14:13:42 +401915000 ns)
+Repeat "<= Static status reply" (Type/SEQ 1E) at 05/02/23 14:13:42 +787820000 ns)
+Repeat "<= Static status reply" (Type/SEQ 10) at 05/02/23 14:13:43 +192891000 ns)
+Repeat "<= Static status reply" (Type/SEQ 13) at 05/02/23 14:13:43 +783988000 ns)
+
+
+3 ACK <= at ['05/02/23 14:13:29 +474771000 ns', '05/02/23 14:13:29 +583519000 ns', '05/02/23 14:13:29 +609039000 ns']
+3 ACK <= at ['05/02/23 14:13:29 +876841000 ns', '05/02/23 14:13:29 +987151000 ns', '05/02/23 14:13:30 +12567000 ns']
+2 ACK <= at ['05/02/23 14:13:31 +111188000 ns', '05/02/23 14:13:31 +123688000 ns']
+2 ACK <= at ['05/02/23 14:13:31 +355142000 ns', '05/02/23 14:13:31 +380559000 ns']
+3 ACK <= at ['05/02/23 14:13:31 +648464000 ns', '05/02/23 14:13:31 +759191000 ns', '05/02/23 14:13:31 +784816000 ns']
+3 ACK <= at ['05/02/23 14:13:32 +641566000 ns', '05/02/23 14:13:32 +751043000 ns', '05/02/23 14:13:32 +776459000 ns']
+3 ACK <= at ['05/02/23 14:13:33 +43330000 ns', '05/02/23 14:13:33 +154891000 ns', '05/02/23 14:13:33 +180411000 ns']
+6 ACK <= at ['05/02/23 14:13:33 +449365000 ns', '05/02/23 14:13:33 +558731000 ns', '05/02/23 14:13:33 +584148000 ns', '05/02/23 14:13:34 +336114000 ns', '05/02/23 14:13:35 +600663000 ns', '05/02/23 14:13:35 +680662000 ns']
+2 ACK <= at ['05/02/23 14:13:36 +283041000 ns', '05/02/23 14:13:36 +298353000 ns']
+2 ACK <= at ['05/02/23 14:13:36 +530641000 ns', '05/02/23 14:13:36 +556057000 ns']
+2 ACK <= at ['05/02/23 14:13:38 +806527000 ns', '05/02/23 14:13:38 +822256000 ns']
+2 ACK <= at ['05/02/23 14:13:39 +466509000 ns', '05/02/23 14:13:39 +480988000 ns']
+2 ACK <= at ['05/02/23 14:13:39 +962230000 ns', '05/02/23 14:13:39 +979104000 ns']
+2 ACK <= at ['05/02/23 14:13:40 +210240000 ns', '05/02/23 14:13:40 +235760000 ns']
+2 ACK <= at ['05/02/23 14:13:40 +598254000 ns', '05/02/23 14:13:40 +610025000 ns']
+2 ACK <= at ['05/02/23 14:13:40 +850125000 ns', '05/02/23 14:13:40 +875645000 ns']
+2 ACK <= at ['05/02/23 14:13:41 +234278000 ns', '05/02/23 14:13:41 +248028000 ns']
+2 ACK <= at ['05/02/23 14:13:41 +478233000 ns', '05/02/23 14:13:41 +503753000 ns']
+2 ACK <= at ['05/02/23 14:13:41 +866143000 ns', '05/02/23 14:13:41 +878955000 ns']
+2 ACK <= at ['05/02/23 14:13:42 +110195000 ns', '05/02/23 14:13:42 +135819000 ns']
+3 ACK <= at ['05/02/23 14:13:42 +797891000 ns', '05/02/23 14:13:42 +910070000 ns', '05/02/23 14:13:42 +935591000 ns']
+3 ACK <= at ['05/02/23 14:13:43 +203815000 ns', '05/02/23 14:13:43 +314126000 ns', '05/02/23 14:13:43 +339542000 ns']
+
+
+No NAKs found
+
+oneshot_02_AB.csv
+------------------------
+
+Packet Type                   Number Logged
+ACK <=                        51
+<= Static status reply        42
+<= Event 1 Status reply       31
+<= Event 2 Status reply       1
+=> Event 1 Status query       23
+ACK =>                        69
+=> Static status query        27
+=> One shot release mode      1
+Total                         245
+
+Packet Type                   Number Logged
+Requests =>                   51
+ACKs <=                       51
+Replies <=                    74
+ACKs =>                       69
+
+
+Repeat "<= Static status reply" (Type/SEQ 1C) at 05/02/23 14:14:11 +517920000 ns)
+Repeat "<= Static status reply" (Type/SEQ 1F) at 05/02/23 14:14:12 +108600000 ns)
+Repeat "<= Static status reply" (Type/SEQ 11) at 05/02/23 14:14:12 +493775000 ns)
+Repeat "<= Static status reply" (Type/SEQ 13) at 05/02/23 14:14:12 +895513000 ns)
+Repeat "<= Event 1 Status reply" (Type/SEQ 2B) at 05/02/23 14:14:15 +543431000 ns)
+Repeat "<= Static status reply" (Type/SEQ 1F) at 05/02/23 14:14:16 +302852000 ns)
+Repeat "<= Event 1 Status reply" (Type/SEQ 29) at 05/02/23 14:14:17 +826374000 ns)
+Repeat "<= Static status reply" (Type/SEQ 1C) at 05/02/23 14:14:18 +460387000 ns)
+Repeat "<= Static status reply" (Type/SEQ 1F) at 05/02/23 14:14:19 +67525000 ns)
+Repeat "<= Static status reply" (Type/SEQ 11) at 05/02/23 14:14:19 +453117000 ns)
+Repeat "<= Static status reply" (Type/SEQ 13) at 05/02/23 14:14:19 +859126000 ns)
+Repeat "<= Static status reply" (Type/SEQ 15) at 05/02/23 14:14:20 +272218000 ns)
+Repeat "<= Static status reply" (Type/SEQ 18) at 05/02/23 14:14:20 +863425000 ns)
+Repeat "<= Static status reply" (Type/SEQ 1A) at 05/02/23 14:14:21 +252455000 ns)
+Repeat "<= Static status reply" (Type/SEQ 1C) at 05/02/23 14:14:21 +658777000 ns)
+Repeat "<= Static status reply" (Type/SEQ 1E) at 05/02/23 14:14:22 +68744000 ns)
+Repeat "<= Static status reply" (Type/SEQ 11) at 05/02/23 14:14:22 +667236000 ns)
+
+
+3 ACK <= at ['05/02/23 14:14:11 +119150000 ns', '05/02/23 14:14:11 +232898000 ns', '05/02/23 14:14:11 +258419000 ns']
+3 ACK <= at ['05/02/23 14:14:11 +528206000 ns', '05/02/23 14:14:11 +637058000 ns', '05/02/23 14:14:11 +662468000 ns']
+3 ACK <= at ['05/02/23 14:14:12 +504120000 ns', '05/02/23 14:14:12 +613174000 ns', '05/02/23 14:14:12 +638591000 ns']
+3 ACK <= at ['05/02/23 14:14:12 +905982000 ns', '05/02/23 14:14:13 +17022000 ns', '05/02/23 14:14:13 +42334000 ns']
+5 ACK <= at ['05/02/23 14:14:13 +242018000 ns', '05/02/23 14:14:13 +378266000 ns', '05/02/23 14:14:14 +54185000 ns', '05/02/23 14:14:14 +198245000 ns', '05/02/23 14:14:15 +126244000 ns']
+2 ACK <= at ['05/02/23 14:14:15 +648833000 ns', '05/02/23 14:14:15 +663937000 ns']
+2 ACK <= at ['05/02/23 14:14:15 +892891000 ns', '05/02/23 14:14:15 +918307000 ns']
+3 ACK <= at ['05/02/23 14:14:16 +313926000 ns', '05/02/23 14:14:16 +424959000 ns', '05/02/23 14:14:16 +436938000 ns']
+2 ACK <= at ['05/02/23 14:14:17 +932844000 ns', '05/02/23 14:14:17 +945864000 ns']
+2 ACK <= at ['05/02/23 14:14:18 +177006000 ns', '05/02/23 14:14:18 +202422000 ns']
+3 ACK <= at ['05/02/23 14:14:18 +470849000 ns', '05/02/23 14:14:18 +580847000 ns', '05/02/23 14:14:18 +606263000 ns']
+3 ACK <= at ['05/02/23 14:14:19 +463742000 ns', '05/02/23 14:14:19 +573011000 ns', '05/02/23 14:14:19 +598427000 ns']
+3 ACK <= at ['05/02/23 14:14:19 +869673000 ns', '05/02/23 14:14:19 +980921000 ns', '05/02/23 14:14:20 +6337000 ns']
+3 ACK <= at ['05/02/23 14:14:20 +282680000 ns', '05/02/23 14:14:20 +392887000 ns', '05/02/23 14:14:20 +418199000 ns']
+3 ACK <= at ['05/02/23 14:14:21 +262657000 ns', '05/02/23 14:14:21 +372863000 ns', '05/02/23 14:14:21 +398176000 ns']
+3 ACK <= at ['05/02/23 14:14:21 +669525000 ns', '05/02/23 14:14:21 +780877000 ns', '05/02/23 14:14:21 +806606000 ns']
+3 ACK <= at ['05/02/23 14:14:22 +79512000 ns', '05/02/23 14:14:22 +192947000 ns', '05/02/23 14:14:22 +218468000 ns']
+
+
+No NAKs found
+
+oneshot_03_AB.csv
+------------------------
+
+Packet Type                   Number Logged
+                              1
+<= Static status reply        53
+ACK <=                        66
+<= Event 1 Status reply       42
+<= Event 2 Status reply       2
+=> Event 1 Status query       32
+ACK =>                        89
+=> Static status query        33
+=> One shot release mode      1
+Total                         319
+
+Packet Type                   Number Logged
+Requests =>                   66
+ACKs <=                       66
+Replies <=                    97
+ACKs =>                       89
+Other                         1
+
+
+Repeat "<= Static status reply" (Type/SEQ 1D) at 05/02/23 14:14:47 +228451000 ns)
+Repeat "<= Static status reply" (Type/SEQ 1F) at 05/02/23 14:14:47 +642376000 ns)
+Repeat "<= Static status reply" (Type/SEQ 12) at 05/02/23 14:14:48 +233161000 ns)
+Repeat "<= Static status reply" (Type/SEQ 14) at 05/02/23 14:14:48 +622405000 ns)
+Repeat "<= Static status reply" (Type/SEQ 16) at 05/02/23 14:14:49 +24143000 ns)
+Repeat "<= Static status reply" (Type/SEQ 18) at 05/02/23 14:14:49 +425777000 ns)
+Repeat "<= Event 1 Status reply" (Type/SEQ 2F) at 05/02/23 14:14:51 +751526000 ns)
+Repeat "<= Event 1 Status reply" (Type/SEQ 2B) at 05/02/23 14:14:53 +809284000 ns)
+Repeat "<= Static status reply" (Type/SEQ 1F) at 05/02/23 14:14:54 +472144000 ns)
+Repeat "<= Event 1 Status reply" (Type/SEQ 24) at 05/02/23 14:14:55 +143343000 ns)
+Repeat "<= Static status reply" (Type/SEQ 17) at 05/02/23 14:14:55 +777460000 ns)
+Repeat "<= Static status reply" (Type/SEQ 1A) at 05/02/23 14:14:56 +379077000 ns)
+Repeat "<= Static status reply" (Type/SEQ 1C) at 05/02/23 14:14:56 +769774000 ns)
+Repeat "<= Static status reply" (Type/SEQ 1E) at 05/02/23 14:14:57 +182866000 ns)
+Repeat "<= Static status reply" (Type/SEQ 10) at 05/02/23 14:14:57 +590020000 ns)
+Repeat "<= Static status reply" (Type/SEQ 13) at 05/02/23 14:14:58 +184457000 ns)
+Repeat "<= Static status reply" (Type/SEQ 15) at 05/02/23 14:14:58 +570258000 ns)
+Repeat "<= Static status reply" (Type/SEQ 17) at 05/02/23 14:14:58 +983871000 ns)
+Repeat "<= Static status reply" (Type/SEQ 19) at 05/02/23 14:14:59 +394254000 ns)
+Repeat "<= Static status reply" (Type/SEQ 1C) at 05/02/23 14:14:59 +988059000 ns)
+Repeat "<= Static status reply" (Type/SEQ 1E) at 05/02/23 14:15:00 +369908000 ns)
+Repeat "<= Static status reply" (Type/SEQ 10) at 05/02/23 14:15:00 +771750000 ns)
+Repeat "<= Static status reply" (Type/SEQ 13) at 05/02/23 14:15:01 +362118000 ns)
+
+
+3 ACK <= at ['05/02/23 14:14:47 +239382000 ns', '05/02/23 14:14:47 +350734000 ns', '05/02/23 14:14:47 +376150000 ns']
+3 ACK <= at ['05/02/23 14:14:47 +652285000 ns', '05/02/23 14:14:47 +762804000 ns', '05/02/23 14:14:47 +788220000 ns']
+3 ACK <= at ['05/02/23 14:14:48 +633304000 ns', '05/02/23 14:14:48 +742677000 ns', '05/02/23 14:14:48 +768197000 ns']
+3 ACK <= at ['05/02/23 14:14:49 +34338000 ns', '05/02/23 14:14:49 +142774000 ns', '05/02/23 14:14:49 +168399000 ns']
+7 ACK <= at ['05/02/23 14:14:49 +436200000 ns', '05/02/23 14:14:49 +546615000 ns', '05/02/23 14:14:49 +571927000 ns', '05/02/23 14:14:50 +311810000 ns', '05/02/23 14:14:50 +455864000 ns', '05/02/23 14:14:51 +350426000 ns', '05/02/23 14:14:51 +415424000 ns']
+2 ACK <= at ['05/02/23 14:14:51 +858229000 ns', '05/02/23 14:14:51 +873125000 ns']
+2 ACK <= at ['05/02/23 14:14:52 +102184000 ns', '05/02/23 14:14:52 +127704000 ns']
+2 ACK <= at ['05/02/23 14:14:53 +913911000 ns', '05/02/23 14:14:53 +929952000 ns']
+3 ACK <= at ['05/02/23 14:14:54 +482957000 ns', '05/02/23 14:14:54 +593893000 ns', '05/02/23 14:14:54 +605038000 ns']
+2 ACK <= at ['05/02/23 14:14:55 +250021000 ns', '05/02/23 14:14:55 +263875000 ns']
+2 ACK <= at ['05/02/23 14:14:55 +493663000 ns', '05/02/23 14:14:55 +519183000 ns']
+3 ACK <= at ['05/02/23 14:14:55 +787929000 ns', '05/02/23 14:14:55 +897614000 ns', '05/02/23 14:14:55 +923239000 ns']
+3 ACK <= at ['05/02/23 14:14:56 +781030000 ns', '05/02/23 14:14:56 +893528000 ns', '05/02/23 14:14:56 +918945000 ns']
+3 ACK <= at ['05/02/23 14:14:57 +192892000 ns', '05/02/23 14:14:57 +305286000 ns', '05/02/23 14:14:57 +330806000 ns']
+3 ACK <= at ['05/02/23 14:14:57 +600697000 ns', '05/02/23 14:14:57 +709445000 ns', '05/02/23 14:14:57 +735070000 ns']
+3 ACK <= at ['05/02/23 14:14:58 +580674000 ns', '05/02/23 14:14:58 +693276000 ns', '05/02/23 14:14:58 +718797000 ns']
+3 ACK <= at ['05/02/23 14:14:58 +994619000 ns', '05/02/23 14:14:59 +108992000 ns', '05/02/23 14:14:59 +134617000 ns']
+3 ACK <= at ['05/02/23 14:14:59 +404820000 ns', '05/02/23 14:14:59 +516902000 ns', '05/02/23 14:14:59 +542422000 ns']
+3 ACK <= at ['05/02/23 14:15:00 +380631000 ns', '05/02/23 14:15:00 +488858000 ns', '05/02/23 14:15:00 +514274000 ns']
+3 ACK <= at ['05/02/23 14:15:00 +782597000 ns', '05/02/23 14:15:00 +892803000 ns', '05/02/23 14:15:00 +918428000 ns']
+
+
+No NAKs found
+
+oneshot_04_AB.csv
+------------------------
+
+Packet Type                   Number Logged
+<= unknown                    1
+ACK <=                        57
+<= Static status reply        41
+<= Event 1 Status reply       39
+<= Event 2 Status reply       2
+ACK =>                        75
+=> Static status query        28
+=> Event 1 Status query       28
+=> One shot release mode      1
+Total                         272
+
+Packet Type                   Number Logged
+Requests =>                   57
+ACKs <=                       57
+Replies <=                    83
+ACKs =>                       75
+
+
+Repeat "<= Static status reply" (Type/SEQ 10) at 05/02/23 14:15:29 +398342000 ns)
+Repeat "<= Event 1 Status reply" (Type/SEQ 23) at 05/02/23 14:15:29 +944758000 ns)
+Repeat "<= Static status reply" (Type/SEQ 16) at 05/02/23 14:15:30 +579396000 ns)
+Repeat "<= Static status reply" (Type/SEQ 19) at 05/02/23 14:15:31 +173826000 ns)
+Repeat "<= Static status reply" (Type/SEQ 1B) at 05/02/23 14:15:31 +555466000 ns)
+Repeat "<= Event 1 Status reply" (Type/SEQ 23) at 05/02/23 14:15:34 +186815000 ns)
+Repeat "<= Static status reply" (Type/SEQ 1B) at 05/02/23 14:15:35 +622644000 ns)
+Repeat "<= Event 1 Status reply" (Type/SEQ 20) at 05/02/23 14:15:36 +293003000 ns)
+Repeat "<= Event 1 Status reply" (Type/SEQ 23) at 05/02/23 14:15:36 +923370000 ns)
+Repeat "<= Event 1 Status reply" (Type/SEQ 26) at 05/02/23 14:15:37 +562175000 ns)
+Repeat "<= Event 1 Status reply" (Type/SEQ 29) at 05/02/23 14:15:38 +197437000 ns)
+Repeat "<= Static status reply" (Type/SEQ 1A) at 05/02/23 14:15:38 +518767000 ns)
+Repeat "<= Static status reply" (Type/SEQ 1D) at 05/02/23 14:15:39 +71850000 ns)
+Repeat "<= Static status reply" (Type/SEQ 1F) at 05/02/23 14:15:39 +462546000 ns)
+Repeat "<= Static status reply" (Type/SEQ 11) at 05/02/23 14:15:39 +863972000 ns)
+Repeat "<= Static status reply" (Type/SEQ 15) at 05/02/23 14:15:40 +639746000 ns)
+Repeat "<= Static status reply" (Type/SEQ 17) at 05/02/23 14:15:41 +20964000 ns)
+Repeat "<= Static status reply" (Type/SEQ 19) at 05/02/23 14:15:41 +427285000 ns)
+Repeat "<= Static status reply" (Type/SEQ 1C) at 05/02/23 14:15:42 +28173000 ns)
+
+
+2 ACK <= at ['05/02/23 14:15:30 +51397000 ns', '05/02/23 14:15:30 +65355000 ns']
+2 ACK <= at ['05/02/23 14:15:30 +295351000 ns', '05/02/23 14:15:30 +320871000 ns']
+3 ACK <= at ['05/02/23 14:15:30 +590235000 ns', '05/02/23 14:15:30 +703254000 ns', '05/02/23 14:15:30 +728671000 ns']
+6 ACK <= at ['05/02/23 14:15:31 +716252000 ns', '05/02/23 14:15:31 +852291000 ns', '05/02/23 14:15:32 +536439000 ns', '05/02/23 14:15:32 +672375000 ns', '05/02/23 14:15:33 +737663000 ns', '05/02/23 14:15:33 +817453000 ns']
+2 ACK <= at ['05/02/23 14:15:34 +295043000 ns', '05/02/23 14:15:34 +308271000 ns']
+2 ACK <= at ['05/02/23 14:15:34 +538997000 ns', '05/02/23 14:15:34 +564517000 ns']
+3 ACK <= at ['05/02/23 14:15:35 +632930000 ns', '05/02/23 14:15:35 +746991000 ns', '05/02/23 14:15:35 +760011000 ns']
+2 ACK <= at ['05/02/23 14:15:36 +398952000 ns', '05/02/23 14:15:36 +414056000 ns']
+2 ACK <= at ['05/02/23 14:15:36 +642802000 ns', '05/02/23 14:15:36 +668218000 ns']
+2 ACK <= at ['05/02/23 14:15:37 +30817000 ns', '05/02/23 14:15:37 +43004000 ns']
+2 ACK <= at ['05/02/23 14:15:37 +278827000 ns', '05/02/23 14:15:37 +304764000 ns']
+2 ACK <= at ['05/02/23 14:15:37 +670695000 ns', '05/02/23 14:15:37 +683924000 ns']
+2 ACK <= at ['05/02/23 14:15:37 +914858000 ns', '05/02/23 14:15:37 +940586000 ns']
+2 ACK <= at ['05/02/23 14:15:38 +302761000 ns', '05/02/23 14:15:38 +314740000 ns']
+3 ACK <= at ['05/02/23 14:15:38 +529736000 ns', '05/02/23 14:15:38 +642755000 ns', '05/02/23 14:15:38 +668067000 ns']
+3 ACK <= at ['05/02/23 14:15:39 +472735000 ns', '05/02/23 14:15:39 +582629000 ns', '05/02/23 14:15:39 +608045000 ns']
+3 ACK <= at ['05/02/23 14:15:39 +874707000 ns', '05/02/23 14:15:39 +986684000 ns', '05/02/23 14:15:40 +11997000 ns']
+3 ACK <= at ['05/02/23 14:15:41 +31654000 ns', '05/02/23 14:15:41 +142589000 ns', '05/02/23 14:15:41 +167901000 ns']
+3 ACK <= at ['05/02/23 14:15:41 +437689000 ns', '05/02/23 14:15:41 +550707000 ns', '05/02/23 14:15:41 +576228000 ns']
+
+
+No NAKs found
+
